@@ -1,0 +1,86 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.Intro {
+    text-align: center;
+    font-size: 20px;
+    font-style: oblique;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+header {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    font-size: 28px;
+    height: auto;
+    width: auto;
+}
+
+a {
+    color: #f28500;
+    text-decoration: none;
+    background-color: none;
+}
+
+a:hover {
+    font-size: 42px;
+    color: navy;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin-top: auto;
+    width: auto;
+    height: 25px;
+    background-color: #0f2335;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+  
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .header-img {
+      width: 100%;
+      height: 200px;
+      background: url(https://jonkoping.kfum.se/wp-content/uploads/sites/55/2020/11/corona-4930541_1920.jpg);
+      background-size: cover;
+      font: garamond;
+      color: white;
+
+  }
+
+  .bild {
+    text-align: center;
+  }
+
+
+
